@@ -1,0 +1,123 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "79a4aece1fb2b129e85f1c904ae472f9",
+    "packages": [
+        {
+            "name": "chartblocks/php-ssrs",
+            "version": "1.0.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ChartBlocks/php-ssrs.git",
+                "reference": "7bd04f0200f16e5e424a37016845da106aaa47da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ChartBlocks/php-ssrs/zipball/7bd04f0200f16e5e424a37016845da106aaa47da",
+                "reference": "7bd04f0200f16e5e424a37016845da106aaa47da",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "*",
+                "phpunit/phpunit": "~3.7."
+            },
+            "suggest": {
+                "zendframework/zend-escaper": "Required for rendering forms with ZendFramework2",
+                "zendframework/zend-form": "Required for rendering forms with ZendFramework2",
+                "zendframework/zend-i18n": "Required for rendering forms with ZendFramework2",
+                "zendframework/zend-servicemanager": "Required for rendering forms with ZendFramework2",
+                "zendframework/zend-view": "Required for rendering forms with ZendFramework2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SSRS\\": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arron Woods",
+                    "email": "aw@chartblocks.com"
+                }
+            ],
+            "description": "PHP library for connecting to SSRS SOAP",
+            "time": "2017-12-08T18:13:37+00:00"
+        },
+        {
+            "name": "kartik-v/bootstrap-fileinput",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
+                "reference": "226d7e0b95824e5a7b5f43ace065265f787ce55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/226d7e0b95824e5a7b5f43ace065265f787ce55f",
+                "reference": "226d7e0b95824e5a7b5f43ace065265f787ce55f",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "kartik\\plugins\\fileinput\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "An enhanced HTML 5 file input for Bootstrap 3.x with features for file preview for many file types, multiple selection, ajax uploads, and more.",
+            "homepage": "https://github.com/kartik-v/bootstrap-fileinput",
+            "keywords": [
+                "ajax",
+                "bootstrap",
+                "delete",
+                "file",
+                "image",
+                "input",
+                "jquery",
+                "multiple",
+                "preview",
+                "progress",
+                "upload"
+            ],
+            "time": "2019-04-10T04:13:58+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "kartik-v/bootstrap-fileinput": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

@@ -1,0 +1,33 @@
+{
+    "name": "ercorp/ssrs-sdk",
+    "description": "PHP library for connecting to SSRS SOAP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabe Martin",
+            "email": "gabema@gmail.com"
+        },
+        {
+            "name": "Justin Revelstoke",
+            "email": "justin.revelstoke@emergencyreporting.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "chartblocks/php-ssrs": "~1.0.",
+        "kartik-v/bootstrap-fileinput": "dev-master"
+	},
+    "autoload": {
+        "psr-4": {
+			"SSRS\\": "library/SSRS/",
+			"SSRS\\Common\\": "library/SSRS/Common/",
+			"SSRS\\Factory\\": "library/SSRS/Factory/",
+			"SSRS\\Interfaces\\": "library/SSRS/Interface/",
+			"SSRS\\RenderType\\": "library/SSRS/RenderType/",
+			"SSRS\\SSRSType\\": "library/SSRS/SSRSType/",
+			"SSRS\\TestConnection\\": "library/SSRS/TestConnection/"
+		}
+    }
+}

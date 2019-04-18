@@ -1,0 +1,23 @@
+		<th style="column-width:100px;border-right: 1px ridge #636161;text-align:center">Move Time</th>
+		<th style="column-width:100px;border-right: 1px ridge #636161;text-align:center">Queue Time</th>
+		
+		
+		<td style="column-width:100px;text-align:right"><?php print $route["MoveTime"]; ?></td>
+		<td style="column-width:100px;text-align:right"><?php print $route["QueueTime"]; ?></td>
+		
+		<tr>
+			<td>Move</td>
+			<td><input tabindex=12 class="form-control number" type="number" id="movetime" name="movetime" value="<?php print $movetime; ?>"></td>
+			<td></td>			
+		</tr>
+		<tr>
+			<td>Queue</td>
+			<td><input tabindex=14 class="form-control number" type="number" id="queuetime" name="queuetime" value="<?php print $queuetime; ?>"></td>
+			<td></td>			
+		</tr>
+		
+		var movetime=$('#movetime').val();
+		var queuetime=$('#queuetime').val();
+		
+			movetime: movetime,
+			queuetime: queuetime,
